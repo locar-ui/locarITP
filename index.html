@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<title></title>
+</head>
+<body>
+	<div class="menu">
+		<div class="preview">
+            <a href="https://www.agoda.com/"><i class="fa-solid fa-camera"></i>&nbsp; Gallery <a>
+            <a href="https://www.google.com/maps"><i class="fa-solid fa-location-dot"></i>&nbsp; Location &nbsp;|<a>
+            <a href="LOGIN/index.php"><i class="fa-regular fa-user"></i> Sign In &nbsp;&nbsp;|</a>
+            <a > THE STANDARD </a>
+        </div>
+        <div class="secondline">
+        	<div class="logo">
+	            <img class="logo" src="images/logo.png">        
+	        </div>
+	        <div class="nav">
+	            <ul>
+	                <li><a href="index.html">HOME</a></li>
+	                <li><a href="webpages/rooms.php">ROOMS</a></li>
+	                <li><a href="webpages/contact.php">CONTACT US</a></li>
+	                <li><a href="webpages/book.php">BOOK NOW</a></li>
+	            </ul>
+	        </div>
+        </div>   
+	</div>
+	<div class="banner">
+		<img src="images/hotel.png">
+	</div>
+	<div class="banner-content">
+        <div class="big-number" id="date"></div>
+        <div class="date-container">
+            <div class="small-text" id="month"></div>
+            <div class="small-lighter" id="weekday"></div>
+        </div>
+        <ul>
+            <li><a href="#standardr">STANDARD ROOMS</a></li>
+            <li><a href="#events">EVENT HALL</a></li>
+            <li><a class="more">STANDARD</a></li>
+        </ul>
+    </div>
+    
+	<div class="wrapper">
+		<div class="one">
+	    	<p id="standardr">Welcome to Standard Hotel, where we ensure a standard approach to your liking. We are your premier destination for city stays. Our objective is to offer comfortable accommodations in the center of vibrant cities. Whether you're a business traveler, a tourist, or just searching for a weekend vacation, we have you covered. Explore our website to discover more about our properties, amenities, and the dynamic areas where we live. I hope you will enjoy here!<br><br></p>
+	    </div>
+	</div>
+	<div class="main">
+        <div class="rooms">
+        	<div class="roompic">
+        		<img src="images/normal.png">
+        	</div>
+            <div class="roomsinfo">
+                <h1 >STANDARD ROOMS</h1>
+                <p>Indulge in the comfort of our standard room, where a cozy bed beckons for a restful night's sleep. With tasteful décor and thoughtful amenities, it's the perfect retreat for your stay.</p>
+            </div>
+        </div>
+    </div>
+	
+	
+	<div class="mainTwo">
+    	<div class="event">
+    		<div class="eventinfo">
+        		<h1 id="events">EVENT HALL</h1>
+                <p>Elegantly designed and versatile, our event hall is the ideal venue for your special occasion. From weddings to corporate gatherings, its sophisticated ambiance sets the stage for memorable events.</p>
+        	</div>
+    		<div class="eventhall">
+    			<img src="images/hall.jpg">
+    		</div>
+		</div>
+	</div>
+	
+
+    <div class="footer">
+        <p>&copy; 2024 The Standard Website. All rights reserved.</p>
+    </div>
+    
+    <script>
+        var currentDate = new Date();
+        var day = currentDate.getDate();
+        var month = currentDate.toLocaleDateString('en-US', { month: 'short' });
+        var dayOfWeek = currentDate.toLocaleDateString('en-US', { weekday: 'short' });
+
+        document.getElementById('date').textContent = day;
+        document.getElementById('month').textContent = month;
+        document.getElementById('weekday').textContent = dayOfWeek;
+    </script>
+
+</body>
+
+</html>
+
+<script>
+	<div class="wrapper">
+		<div class="one">
+	    	<h3>About Us</h3>
+	    	<p>Welcome to Downtown Delight! We are your premier destination for city stays. Our objective is to offer comfortable accommodations in the center of vibrant cities. Whether you're a business traveler, a tourist, or just searching for a weekend vacation, we have you covered. Explore our website to discover more about our properties, amenities, and the dynamic areas where we live. I hope you will enjoy here!</p>
+	    </div>
+	</div>
+</script>

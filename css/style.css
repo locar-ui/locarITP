@@ -1,0 +1,427 @@
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.menu .preview {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.menu .preview a {
+    margin-right: 10px;
+    color: black; 
+    text-decoration: none; 
+    font-family: avenir, sans-serif;
+}
+
+.menu .secondline{
+    max-width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+}
+div.logo img{
+    width: 200px;
+    display: block;
+    padding: 0px 0px 20px 20px;
+    margin:0 auto;
+    justify-content: flex-start;
+}
+
+.menu .nav {
+    margin: 30px 0px 30px 0px;
+    margin-left:auto;
+}
+
+.menu .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu .nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu .nav ul li a {
+    color: black; 
+    text-decoration: none; 
+}
+
+.menu .nav ul li a:hover {
+    text-decoration: underline #bc9a6a 3px;
+}
+
+
+div.wrapper {
+    margin: 0 auto;
+    padding: 0px;
+    background-color: white;
+}
+
+div.banner img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-content {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: -91px 0 0px 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 10px;
+    min-width: 600px;
+
+}
+
+.banner-content .big-number,
+.banner-content .date-container{
+    display: inline-block;
+}
+
+.banner-content ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.banner-content ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.banner-content ul li a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding:10px;
+}
+
+.banner-content ul li a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+.more {
+    background-color: #e4d6c6;
+    color: black;
+}
+
+
+.big-number {
+    font-size: 40px; 
+    color: black;
+    font-weight: bold;
+    font-family: tahoma;
+}
+
+.small-text {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial;
+    color: black;
+}
+
+.small-lighter{
+    font-size: 17px;
+    font-weight: lighter;
+    color: black;
+    font-family: ;
+}
+
+.one{
+    background-color: #f4f2f3;
+    margin-top: -20px;
+}
+
+div.wrapper .one{
+    background-color: #f4f2f3;
+    padding-top: 20px;
+}
+
+div.wrapper .one p{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    text-align: justify;
+}
+
+div.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+div.rooms {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.roompic {
+    width: 700px;
+    height: 500px;
+}
+div.roompic img{
+    width: 700px;
+    height: 500px;
+}
+div.roomsinfo {
+    padding-left: 20px; 
+    width:450px;
+}
+
+div.mainTwo {
+    margin-top: 20px;
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    background-color: #f4f2f3;
+}
+
+div.event {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+div.eventhall {
+    width: 700px;
+    height: 500px;
+}
+div.eventhall img{
+    width: 700px;
+    height: 500px;
+}
+div.eventinfo {
+    padding-left: 20px; 
+    width:450px;
+}
+
+div.footer{
+    text-align: center;
+}
+
+
+
+/* Contacts */
+div.contact {
+
+     margin-top: 250px;
+
+}
+
+div.contact form {
+
+    border-radius: 10px;
+    border: 1px solid black;
+    background: rgba (0,0,0,.1);
+    backdrop-filter: blur(3px);
+    padding: 10px;
+    margin: 0 auto;
+    width: 30%;
+    box-shadow: 3px 3px 10px black;
+    height: 450px;
+}
+
+div.contact form input{
+    width: 95%;
+    padding: 20px 0 20px 20px;
+    border-radius: 5px;
+    background: rgba (0,0,0,.1);
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 5px black;
+}
+
+div.contact form button{
+    float: right;
+    margin-right: 10px;
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+
+}
+
+div.contact form label{
+    font-size: 25px;
+    font-family: avenir, sans-serif;
+}
+div.contact form textarea{
+    height: 100px;
+    width: 98%;
+    background: rgba (0,0,0,.1);
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 5px black;
+}
+
+/*rooms style*/
+
+
+
+.room-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #f4f2f3;
+}
+
+.room {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 50px 5px;
+    width: 480px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    display: flex;
+
+}
+
+.room img {
+    width: 300px;
+}
+
+.room room-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.room h2 {
+    color: #333;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.room p {
+    color: #666;
+    font-size: 1em;
+    padding: 0 1px 1px 1px;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+.rating-stars {
+      display: none;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .rating-stars i {
+      font-size: 2em;
+      color: lightgray;
+      cursor: pointer;
+    }
+    .rating-stars i.selected {
+      color: gold;
+    }
+
+
+
+
+
+/*Book*/
+.banner-full {
+    width: 100%;
+    height: 1000px; 
+    background-image: url('../images/hotel.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.booking{
+    margin-top:-800px;
+}
+
+.booking-form-container {
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white; 
+    position: absolute;
+}
+
+.booking-form-container {
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2px;
+}
+
+.booking-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.booking-form-container label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+.booking-form-container input{
+  width: 95%;
+  padding: 10px;
+  margin: 5px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.booking-form-container select,
+.booking-form-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.booking-form-container button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form-container button:hover {
+  background-color: #45a049;
+}
